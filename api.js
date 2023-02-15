@@ -7,7 +7,6 @@ const bcrypt=require('bcrypt');
 const passport= require('passport');
 const cons = require('consolidate');
 const path = require('node:path');
-
 //middlewares:
 
 //view engines:
