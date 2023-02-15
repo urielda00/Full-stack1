@@ -7,3 +7,5 @@
 //npm i dotenv
 //npm i bcrypt
 //npm i passport passport-local
+// npm install consolidate
+//npm install swig
