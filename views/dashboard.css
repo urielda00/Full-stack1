@@ -1,0 +1,49 @@
+
+  body{
+    background: url(photo1.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh-80px);
+  }
+  nav{
+    background-color: rgb(199, 189, 177);
+    height: 80px;
+    width: 100%;
+  }
+  label.logo{
+    color:white;
+    font-size: 35px;
+    line-height: 80px;
+    padding:0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height:80px;
+    margin: 0 5px;
+    cursor:pointer;
+  }
+  nav ul li:hover{
+    background: rgba(62, 53, 53, 0.321);
+    color: aliceblue;
+    font-weight: 900;
+  }
+  nav ul li a{
+    color:white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 15px;
+    border-radius: 3px;
+  }
+
+  a{
+    font-size: 30px;
+    color: aliceblue;
+  }
+
+  body{
+    text-align: center;
+  }

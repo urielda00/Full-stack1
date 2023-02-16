@@ -1,0 +1,19 @@
+body{
+  background-color: antiquewhite;
+  text-align: center;
+}
+h1{
+  margin-bottom: -1px;
+  margin-top: 4%;
+}
+a{
+  color: rgb(142, 26, 26);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-bottom: none;
+  font-size: 2rem;
+}
+
+a:hover{
+  color:rgb(46, 123, 205);
+  font-size: 3rem;
+}

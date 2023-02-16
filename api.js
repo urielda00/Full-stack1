@@ -1,12 +1,13 @@
 const express=require('express');
 const app= express();
 const port= process.env.port||2500;
-const {pool}= require('./views/db.connect');
+const {pool}= require('./db.connect');
 const session= require('express-session');
 const bcrypt=require('bcrypt');
 const passport= require('passport');
 const cons = require('consolidate');
 const path = require('node:path');
+require('dotenv').config();
 //middlewares:
 
 //view engines:
@@ -15,6 +16,7 @@ app.set('views', path.join(__dirname, '/views'));
 app.set('view engine', 'html');
 
 const initializePassport= require('./passport');
+const { join } = require('node:path');
 initializePassport(passport);
 app.use(express.urlencoded({extended:false}));
 app.use(session({
@@ -24,8 +26,7 @@ app.use(session({
 }));
 app.use(passport.initialize());
 app.use(passport.session());
-
-
+app.use('/static',express.static(join(process.cwd(),"views")))
 
 // GET paths:
 app.get('/',(req,res)=>{
