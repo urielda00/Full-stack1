@@ -1,27 +1,4 @@
-//to-do:
-//use the .env variables
 
-
-/*             
-
-
-require('dotenv').config();
-const {Pool}= require('pg');
-
-
-const pool= new Pool({
-  host:"localhost",
-  user:"postgres",
-  port:5432,
-  password:"postgres",
-  database:"Registeration"
-});
-
-module.exports={ pool };
-
-
-
-*/
 
 
 require('dotenv').config();
