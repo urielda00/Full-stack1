@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+
+  background-color: rgb(222, 101, 200, 30);
+  position: absolute;
+  margin-left: 44%;
+  margin-top: 10%;
+}
+
+a{
+  color: black;
+}
+ a:hover{
+  font-size: 2rem;
+  color: brown;
+ }
